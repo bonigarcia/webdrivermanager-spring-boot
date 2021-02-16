@@ -126,3 +126,4 @@ WebDriverManager (Copyright &copy; 2015-2021) is a project created and maintaine
 [Logo]: http://bonigarcia.github.io/img/webdrivermanager.png
 [GitHub Repository]: https://github.com/bonigarcia/webdrivermanager-spring-boot
 [Spring Boot]: https://spring.io/projects/spring-boot
+[Stack Overflow]: https://stackoverflow.com/questions/tagged/webdrivermanager-java
