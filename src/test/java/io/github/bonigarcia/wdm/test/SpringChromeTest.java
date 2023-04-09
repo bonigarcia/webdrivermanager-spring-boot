@@ -16,19 +16,19 @@
  */
 package io.github.bonigarcia.wdm.test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.server.LocalServerPort;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import io.github.bonigarcia.wdm.SpringBootDemoApp;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -39,7 +39,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  * @author Boni Garcia (boni.gg@gmail.com)
  * @since 1.0.0
  */
-@RunWith(SpringRunner.class)
+@ExtendWith(SpringExtension.class)
 @SpringBootTest(classes = SpringBootDemoApp.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class SpringChromeTest {
 
@@ -48,17 +48,17 @@ public class SpringChromeTest {
     @LocalServerPort
     protected int serverPort;
 
-    @BeforeClass
+    @BeforeAll
     public static void setupClass() {
         WebDriverManager.chromedriver().setup();
     }
 
-    @Before
+    @BeforeEach
     public void setupTest() {
         driver = new ChromeDriver();
     }
 
-    @After
+    @AfterEach
     public void teardown() {
         if (driver != null) {
             driver.quit();
