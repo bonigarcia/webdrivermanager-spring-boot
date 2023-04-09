@@ -1,6 +1,6 @@
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.bonigarcia/webdrivermanager.svg)](https://search.maven.org/#search%7Cga%7C1%7Cg%3Aio.github.bonigarcia%20a%3Awebdrivermanager)
 [![Build Status](https://github.com/bonigarcia/webdrivermanager-spring-boot/workflows/build/badge.svg)](https://github.com/bonigarcia/webdrivermanager-spring-boot/actions)
-[![badge-jdk](https://img.shields.io/badge/jdk-8-green.svg)](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+[![badge-jdk](https://img.shields.io/badge/jdk-17-green.svg)](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 [![License badge](https://img.shields.io/badge/license-Apache2-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Backers on Open Collective](https://opencollective.com/webdrivermanager/backers/badge.svg)](#backers)
 [![Sponsors on Open Collective](https://opencollective.com/webdrivermanager/sponsors/badge.svg)](#sponsors)
@@ -116,7 +116,7 @@ WebDriverManager is part of [OpenCollective], an online funding platform for ope
 
 ## About
 
-WebDriverManager (Copyright &copy; 2015-2022) is a project created and maintained by [Boni Garcia] licensed under [Apache 2.0 License].
+WebDriverManager (Copyright &copy; 2015-2023) is a project created and maintained by [Boni Garcia] licensed under [Apache 2.0 License].
 
 [Apache 2.0 License]: https://www.apache.org/licenses/LICENSE-2.0
 [Boni Garcia]: https://bonigarcia.github.io/
