@@ -16,7 +16,7 @@
 
     <properties>
         <wdm.version>5.9.2</wdm.version>
-        <httpclient5.version>5.4.1</httpclient5.version>
+        <httpclient5.version>5.4.2</httpclient5.version>
 
         <java.version>17</java.version>
         <maven.compiler.target>${java.version}</maven.compiler.target>
