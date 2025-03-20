@@ -15,7 +15,7 @@
     </parent>
 
     <properties>
-        <wdm.version>5.9.3</wdm.version>
+        <wdm.version>6.0.0</wdm.version>
         <httpclient5.version>5.4.2</httpclient5.version>
 
         <java.version>17</java.version>
